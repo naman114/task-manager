@@ -4,7 +4,7 @@ from datetime import datetime
 
 from celery.schedules import crontab
 
-from task_manager.celery import app
+from config.celery_app import app
 
 
 @app.on_after_finalize.connect
