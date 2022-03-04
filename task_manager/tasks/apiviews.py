@@ -14,7 +14,7 @@ from rest_framework.serializers import ModelSerializer
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 
-from tasks.models import Task, TaskHistory
+from task_manager.tasks.models import Task, TaskHistory
 
 STATUS_CHOICES = (
     ("PENDING", "PENDING"),

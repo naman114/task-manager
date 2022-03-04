@@ -1,5 +1,5 @@
 from django.core.mail import send_mail
-from tasks.models import EmailPreferences, Task, STATUS_CHOICES
+from .models import EmailPreferences, Task, STATUS_CHOICES
 from datetime import datetime
 
 from celery.schedules import crontab

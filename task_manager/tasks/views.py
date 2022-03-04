@@ -1,7 +1,7 @@
 from itertools import chain
 from django.http import HttpResponse, HttpResponseRedirect
 from django.utils.safestring import mark_safe
-from tasks.models import EmailPreferences, Task
+from .models import EmailPreferences, Task
 
 from django.views.generic.list import ListView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView

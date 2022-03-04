@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from tasks.models import Task, TaskHistory, EmailPreferences
+from task_manager.tasks.models import Task, TaskHistory, EmailPreferences
 
 admin.sites.site.register(Task)
 

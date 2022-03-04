@@ -1,7 +1,7 @@
 from django.db.models.signals import pre_save, post_save
 from django.dispatch import receiver
 from django.contrib.auth.models import User
-from tasks.models import Task, TaskHistory, EmailPreferences
+from task_manager.tasks.models import Task, TaskHistory, EmailPreferences
 
 
 @receiver(pre_save, sender=Task)
