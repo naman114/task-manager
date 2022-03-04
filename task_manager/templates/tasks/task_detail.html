@@ -24,11 +24,7 @@
     <br />
     <div>
       <h2 class="mt-6 text-xl font-bold text-gray-900">Status</h2>
-      {% if object.completed %}
-      <p>Completed</p>
-      {% else %}
-      <p>Pending</p>
-      {% endif %}
+      <p>{{ object.status }}</p>
     </div>
     <br />
     <div>
